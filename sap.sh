@@ -1,1 +1,0 @@
-sapserver -f sap.cfg
