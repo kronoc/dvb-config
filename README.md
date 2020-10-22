@@ -19,3 +19,4 @@ Config files and shell scripts to enable multicast distribution of Saorview DVB 
 	RUN="yes"
 6. reboot
 
+7. Using VLC on another computer on the same LAN, select a stream from the items in ' Network streams (SAP)'
