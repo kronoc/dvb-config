@@ -1,0 +1,14 @@
+[Unit]
+Description=Saorview DTT Mux 1
+After=network-online.target
+ 
+[Service]
+ExecStart=/bin/bash /home/conor/src/saorview-dvb-config/bin/mux1.sh
+WorkingDirectory=/home/conor/src/saorview-dvb-config/bin
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=conor
+ 
+[Install]
+WantedBy=multi-user.target

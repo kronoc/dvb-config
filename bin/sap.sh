@@ -1,1 +1,1 @@
-sapserver -f ../config/sap.cfg
+sapserver -f ../config/sap.cfg -d
