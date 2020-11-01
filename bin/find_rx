@@ -1,0 +1,2 @@
+#!/bin/bash
+tslsdvb | grep $1 -m $2 | tail -n 1 | sed 's/.*adapter\([^ \(]*\).*/\1/'
