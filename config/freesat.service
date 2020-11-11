@@ -1,0 +1,14 @@
+[Unit]
+Description=Freesat BBC Transponder 4
+After=network-online.target
+ 
+[Service]
+ExecStart=/bin/bash /home/conor/src/saorview-dvb-config/bin/mux-freesat.sh
+WorkingDirectory=/home/conor/src/saorview-dvb-config/bin
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=conor
+ 
+[Install]
+WantedBy=multi-user.target
