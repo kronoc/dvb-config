@@ -1,7 +1,7 @@
 # dvb-config
 Config files and shell scripts to enable multicast distribution of DVB-T muxes and/or DVB-S transponder data onto a lan, using a couple of RTLSDR DVB-T USB sticks, DVB-S USB devices, dvblast and minisapserver.
 
-#installaction/usage
+#installation/usage
 
 1. Install dependencies
 
